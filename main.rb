@@ -29,12 +29,12 @@ get "/resume" do
     erb :resume
 end
 
-get "/about" do
-    @title = "About Kimberly Maxwell"
-    @description = "This is a little more about Kimberly Maxwell."
-    @about = "active"
-    erb :about
-end
+#get "/about" do
+#    @title = "About Kimberly Maxwell"
+#    @description = "This is a little more about Kimberly Maxwell."
+#    @about = "active"
+#    erb :about
+#end
 
 get "/news" do
     @title = "News About Kimberly Maxwell"
